@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>ZeroGolf AI Report</title>
+    <style>
+        body { font-family: 'Noto Sans KR', sans-serif; color: #333; line-height: 1.6; }
+        .container { width: 210mm; height: 297mm; padding: 20mm; margin: 0 auto; border: 1px solid #ddd; background: #fff; }
+        .header { border-bottom: 2px solid #000; padding-bottom: 10px; margin-bottom: 30px; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 24px; font-weight: bold; letter-spacing: 2px; }
+        .sub-logo { font-size: 12px; color: #666; }
+        .section-title { font-size: 18px; font-weight: bold; border-left: 5px solid #000; padding-left: 10px; margin-top: 30px; margin-bottom: 15px; background: #f9f9f9; padding: 5px 10px; }
+        .grid-box { display: flex; justify-content: space-between; gap: 20px; }
+        .card { flex: 1; background: #f4f4f4; padding: 15px; border-radius: 8px; }
+        .data-point { font-size: 28px; font-weight: bold; color: #d32f2f; }
+        .highlight-box { background: #333; color: #fff; padding: 20px; border-radius: 8px; margin: 20px 0; }
+        .highlight-title { color: #ffd700; font-size: 16px; font-weight: bold; margin-bottom: 10px; }
+        .spec-table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        .spec-table th, .spec-table td { border: 1px solid #ddd; padding: 10px; text-align: center; }
+        .spec-table th { background: #eee; }
+        .footer { margin-top: 50px; text-align: center; font-size: 12px; color: #888; border-top: 1px solid #ddd; padding-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <div class="logo">ZEROGOLF</div>
+                <div class="sub-logo">AI FITTING REPORT</div>
+            </div>
+            <div style="text-align: right;">
+                <div><strong>Client:</strong> 김피터 님</div>
+                <div><strong>Date:</strong> 2026.01.15</div>
+            </div>
+        </div>
+
+        <div class="section-title">1. SWING DNA ANALYSIS</div>
+        <div class="grid-box">
+            <div class="card">
+                <div>Club Speed</div>
+                <div class="data-point">100 mph</div>
+                <div style="font-size:12px;">Top 1% Power Hitter</div>
+            </div>
+            <div class="card">
+                <div>Spin Rate</div>
+                <div class="data-point">2,300 rpm</div>
+                <div style="font-size:12px;">Ideal Range</div>
+            </div>
+            <div class="card">
+                <div>Swing Tempo</div>
+                <div class="data-point">Fast</div>
+                <div style="font-size:12px;">Aggressive Transition</div>
+            </div>
+        </div>
+
+        <div class="section-title">2. DIAGNOSIS (진단)</div>
+        <p><strong>현재 장비:</strong> WAOWW Bang + Arch 260 (D1.2)</p>
+        <p style="color: red; font-weight: bold;">⚠️ 판정: 부적합 (WARNING)</p>
+        <ul>
+            <li><strong>SW D1.2:</strong> 90kg 체중 대비 헤드가 너무 가벼워 급한 템포와 훅을 유발합니다.</li>
+            <li><strong>Shaft:</strong> 팁 액션이 과도하여 임팩트 시 페이스 앵글 제어가 어렵습니다.</li>
+        </ul>
+
+        <div class="section-title">3. MASTERPIECE SOLUTION</div>
+        <div class="highlight-box">
+            <div class="highlight-title">✨ ZEROGOLF AI RECOMMENDATION</div>
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+                <div>
+                    <div style="font-size: 20px; font-weight: bold;">HEAD: WAOWW RV-555 Type-S</div>
+                    <div style="color: #ccc;">Low Spin / Deep Face</div>
+                </div>
+                <div style="font-size: 30px;">+</div>
+                <div>
+                    <div style="font-size: 20px; font-weight: bold;">SHAFT: Arch Natural 9 Rosso</div>
+                    <div style="color: #ccc;">Flex 26 / High Kick</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-title">4. ASSEMBLY SPEC</div>
+        <table class="spec-table">
+            <tr>
+                <th>Length</th>
+                <th>Swing Weight</th>
+                <th>CPM</th>
+                <th>Grip</th>
+            </tr>
+            <tr>
+                <td>45.25"</td>
+                <td>D3.0</td>
+                <td>268</td>
+                <td>Iomic 2.3</td>
+            </tr>
+        </table>
+
+        <div class="footer">
+            🕒 제로골프 피팅센터 운영시간 안내<br>
+            피팅 예약 / 피터·티칭프로 양성교육 : 평일 오전 10시 ~ 오후 7시<br>
+            골프존 스크린 / 카카오VX 연습타석 : 평일 오전 10시 ~ 오후 10시<br>
+            📞 문의 : 02-595-1872, 010-3018-6089
+        </div>
+    </div>
+</body>
+</html>
